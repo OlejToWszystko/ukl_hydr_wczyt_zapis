@@ -1,0 +1,220 @@
+object Form1: TForm1
+  Left = 272
+  Height = 460
+  Top = 123
+  Width = 832
+  Caption = 'Form1'
+  ClientHeight = 460
+  ClientWidth = 832
+  OnCreate = FormCreate
+  LCLVersion = '1.4.4.0'
+  object Shape1: TShape
+    Left = 304
+    Height = 600
+    Top = 16
+    Width = 800
+  end
+  object ReadButton: TButton
+    Left = 16
+    Height = 25
+    Top = 16
+    Width = 75
+    Caption = 'WCZYTAJ'
+    OnClick = ReadButtonClick
+    TabOrder = 0
+  end
+  object SymulacjaButton: TButton
+    Left = 16
+    Height = 25
+    Top = 56
+    Width = 75
+    Caption = 'SYMULACJA'
+    OnClick = SymulacjaButtonClick
+    TabOrder = 1
+  end
+  object pmaxEdit: TEdit
+    Left = 248
+    Height = 23
+    Top = 16
+    Width = 48
+    TabOrder = 2
+    Text = '150'
+  end
+  object vmaxEdit: TEdit
+    Left = 248
+    Height = 23
+    Top = 48
+    Width = 48
+    TabOrder = 3
+    Text = '150'
+  end
+  object xrmaxEdit: TEdit
+    Left = 248
+    Height = 23
+    Top = 80
+    Width = 48
+    TabOrder = 4
+    Text = '9,2'
+  end
+  object Label1: TLabel
+    Left = 167
+    Height = 15
+    Top = 20
+    Width = 57
+    Caption = 'pmax [bar]'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 167
+    Height = 15
+    Top = 52
+    Width = 76
+    Caption = 'vmax [m/min]'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 167
+    Height = 15
+    Top = 84
+    Width = 64
+    Caption = 'xrmax [mm]'
+    ParentColor = False
+  end
+  object mzrLabel: TLabel
+    Left = 16
+    Height = 15
+    Top = 153
+    Width = 44
+    Caption = 'mzr [kg]'
+    ParentColor = False
+  end
+  object mzrEdit: TEdit
+    Left = 97
+    Height = 23
+    Top = 149
+    Width = 48
+    TabOrder = 5
+    Text = '920'
+  end
+  object dtlLabel: TLabel
+    Left = 16
+    Height = 15
+    Top = 185
+    Width = 47
+    Caption = 'dtl [mm]'
+    ParentColor = False
+  end
+  object dtlEdit: TEdit
+    Left = 97
+    Height = 23
+    Top = 181
+    Width = 48
+    TabOrder = 6
+    Text = '40'
+  end
+  object QpLabel: TLabel
+    Left = 16
+    Height = 15
+    Top = 217
+    Width = 56
+    Caption = 'Qp [l/min]'
+    ParentColor = False
+  end
+  object QpEdit: TEdit
+    Left = 97
+    Height = 23
+    Top = 213
+    Width = 48
+    TabOrder = 7
+    Text = '26,82'
+  end
+  object fLabel: TLabel
+    Left = 16
+    Height = 15
+    Top = 249
+    Width = 45
+    Caption = 'f [Ns/m]'
+    ParentColor = False
+  end
+  object fEdit: TEdit
+    Left = 97
+    Height = 23
+    Top = 245
+    Width = 48
+    TabOrder = 8
+    Text = '3400'
+  end
+  object aLabel: TLabel
+    Left = 16
+    Height = 15
+    Top = 281
+    Width = 61
+    Caption = 'a [m^5/Ns]'
+    ParentColor = False
+  end
+  object aEdit: TEdit
+    Left = 97
+    Height = 23
+    Top = 277
+    Width = 48
+    TabOrder = 9
+    Text = '3,2'
+  end
+  object Label4: TLabel
+    Left = 152
+    Height = 15
+    Top = 281
+    Width = 42
+    Caption = '*10^-12'
+    ParentColor = False
+  end
+  object cLabel: TLabel
+    Left = 16
+    Height = 15
+    Top = 313
+    Width = 17
+    Caption = 'c []'
+    ParentColor = False
+  end
+  object cEdit: TEdit
+    Left = 97
+    Height = 23
+    Top = 309
+    Width = 48
+    TabOrder = 10
+    Text = '1,916'
+  end
+  object Label5: TLabel
+    Left = 152
+    Height = 15
+    Top = 313
+    Width = 42
+    Caption = '*10^-12'
+    ParentColor = False
+  end
+  object stopButton: TButton
+    Left = 16
+    Height = 25
+    Top = 96
+    Width = 75
+    Caption = 'STOP'
+    OnClick = stopButtonClick
+    TabOrder = 11
+  end
+  object Label6: TLabel
+    Left = 167
+    Height = 15
+    Top = 116
+    Width = 71
+    Caption = 'Qmax [l/min]'
+    ParentColor = False
+  end
+  object QmaxEdit: TEdit
+    Left = 248
+    Height = 23
+    Top = 112
+    Width = 48
+    TabOrder = 12
+    Text = '30'
+  end
+end
